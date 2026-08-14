@@ -36,12 +36,11 @@ section{scroll-margin-top:24px}
 </header>
 
 <section id="om">
-<div class="card">
 <h2>Om Sjøkart</h2>
 <p>Sjøkart Norge er utviklet som et praktisk hjelpemiddel for fritidsbåtliv. I kartet kan du se egen GPS-posisjon, fart og kurs, følge båten, se kompass og kjølvannsspor, hente vær- og sjøforhold for valgte punkter og laste ned sjøkart for bruk når mobildekningen er dårlig. Du kan også sette en destinasjon i kartet og legge til eventuelle viapunkter for å beregne forventet reiselengde.</p>
 <p>Du kan slå på kartlag med brukerregistrerte steder som naturhavner, gjestehavner, marinaer, båtforeninger, brygger, drivstoff, septiktømming, verksted og motorservice, båtutstyrsbutikker, fiskemottak og fiskeutsalg, strand og badeplass, teltplass, grill- og bålplass, naturreservater, severdigheter og matsteder.</p>
+<p>Steder du merker med stjerne, lagres som private favoritter og vises i et eget kartlag. Favorittlaget er slått på automatisk når appen åpnes, mens de øvrige kartlagene kan slås på ved behov.</p>
 <p>Sjøkart er brukerbasert: lokasjoner kan registreres, redigeres og korrigeres av brukerne, bilder kan sendes inn og knyttes til lokasjoner, og innhold kan rapporteres dersom noe er feil eller upassende. Bilder gjennomgås før de publiseres.</p>
-</div>
 </section>
 
 <section id="support">
@@ -52,8 +51,8 @@ section{scroll-margin-top:24px}
 <p>Dersom samme feil stadig kommer tilbake, du opplever misbruk, eller det er noe du ikke får rettet selv, kan du bruke funksjonen <strong>Rapporter innhold</strong> i appen eller kontakte systemansvarlig.</p>
 
 <h3>Bilder og innhold</h3>
-<p>Brukerinnsendte bilder gjennomgås før publisering. Hvis du mener at et publisert bilde er feil, misvisende, upassende eller ikke hører til lokasjonen, kan du fjerne det direkte fra stedsinformasjonen uten å slette selve lokasjonen. Du kan også redigere eller slette annet brukerinnhold du mener er feil.</p>
-<p>Hvis problemet vedvarer, uønsket innhold blir lagt inn på nytt, eller du mistenker bevisst misbruk, bruk Rapporter innhold. Systemansvarlig kan da gjennomgå hendelsen og ved behov blokkere den tekniske bidragsyter-ID-en.</p>
+<p>Brukerinnsendte bilder og innhold gjennomgås før publisering. Hvis du mener at et publisert bilde eller informasjon er feil, misvisende, upassende, eller ikke hører til lokasjonen, kan du fjerne det direkte fra stedsinformasjonen uten å slette selve lokasjonen.</p>
+<p>Hvis problemet vedvarer, upassende innhold blir lagt inn på nytt, eller gjentatte feil oppstår, bruk Rapporter innhold. Systemansvarlig kan da gjennomgå hendelsen og ved behov blokkere den tekniske bidragsyter-ID-en.</p>
 
 <h3>Sikkerhet på sjøen</h3>
 <p>Sjøkart Norge er et hjelpemiddel og erstatter ikke godt sjømannskap, offisielle navigasjonsmidler, lokale varsler eller egen vurdering av vær- og sjøforhold. Kontroller alltid sjømerker, dybde, vær, lokale regler og skilting.</p>
@@ -63,9 +62,7 @@ section{scroll-margin-top:24px}
 <h2>Personvernerklæring</h2>
 <p class="small">Sist oppdatert: 12. august 2026</p>
 
-<div class="card">
 <p>Denne erklæringen forklarer hvilke opplysninger Sjøkart Norge kan behandle, hvorfor de brukes og hvilke valg og rettigheter du har. Vanlige brukere trenger ikke å opprette en konto med navn, e-postadresse eller telefonnummer.</p>
-</div>
 
 <h3>Posisjon, fart og kurs</h3>
 <p>Når du gir appen tilgang til posisjon, brukes iPhone-posisjonen for å vise båten i kartet og beregne blant annet fart og kurs. Posisjonen brukes også når du velger vær for et punkt eller registrerer et sted.</p>
@@ -77,6 +74,7 @@ section{scroll-margin-top:24px}
 <h3>Anonym teknisk bruker-ID</h3>
 <p>For å beskytte den brukerbaserte delen av Sjøkart mot misbruk opprettes det i bakgrunnen en anonym teknisk bruker i Supabase Auth. Identiteten inneholder ikke navn, e-postadresse eller telefonnummer, men får en unik teknisk bruker-ID og autentiseringsinformasjon på enheten.</p>
 <p>ID-en brukes for å knytte bidrag og rapporter til en teknisk bidragsyter, slik at gjentatt misbruk kan håndteres og en bidragsyter ved behov kan blokkeres fra nye bidrag. Sletting av appdata eller reinstallasjon kan føre til at en ny anonym ID opprettes.</p>
+<p>Steder du markerer som favoritter, lagres lokalt på enheten og er private. Favorittmarkeringene deles ikke med andre brukere og brukes ikke til å identifisere deg.</p>
 
 <h3>Brukerregistrerte steder og tekstinnhold</h3>
 <p>Når du registrerer eller redigerer et sted, kan Sjøkart behandle og publisere opplysninger som stedsnavn, kategori, koordinater, adgang, fasiliteter og praktisk informasjon. Dette innholdet er ment å deles med andre brukere.</p>
@@ -100,7 +98,7 @@ section{scroll-margin-top:24px}
 <p>Når du sender en e-post til Sjøkart, brukes e-postadressen din og informasjonen i henvendelsen bare til å svare deg og følge opp saken du har tatt kontakt om.</p>
 
 <h3>Deling, annonser og sporing</h3>
-<p>Sjøkart Norge selger ikke personopplysninger og bruker ikke personopplysninger til målrettet annonsering. Opplysninger deles med tekniske tjenesteleverandører bare når det er nødvendig for å levere appens funksjoner, drifte tjenesten, håndtere sikkerhet/moderering eller oppfylle rettslige forpliktelser.</p>
+<p>Opplysninger deles med tekniske tjenesteleverandører når det er nødvendig for å levere appens funksjoner, drifte tjenesten, håndtere sikkerhet/moderering eller oppfylle rettslige forpliktelser.</p>
 
 <h3>Lagringstid</h3>
 <p>Brukerinnhold beholdes så lenge det er relevant for tjenesten eller til det slettes av brukere eller ved moderering. Innsendte bilder kan godkjennes, avvises eller slettes. Rapporter og opplysninger om blokkering kan beholdes så lenge det er nødvendig for å håndtere misbruk og beskytte tjenesten.</p>
@@ -119,12 +117,10 @@ section{scroll-margin-top:24px}
 </section>
 
 <section id="kontakt">
-<div class="card">
 <h2>Kontakt og behandlingsansvarlig</h2>
 <p>Sjøkart Norge drives av Øystein Frich.</p>
 <p>For spørsmål, feil, innholdsproblemer, support eller henvendelser om personvern og dine rettigheter:</p>
 <p><a href="mailto:ofrich@hotmail.com">ofrich@hotmail.com</a></p>
-</div>
 </section>
 
 <footer class="small">© 2026 Sjøkart Norge</footer>
