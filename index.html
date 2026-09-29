@@ -23,7 +23,6 @@ section{scroll-margin-top:24px}
 </style>
 </head>
 <body>
-
 <header id="forside">
 <h1>Sjøkart Norge</h1>
 <p>Sjøkart Norge samler sjøkart, GPS-posisjon, fart og kurs, kompass, vær, vind, bølger, tidevann og offline-kart i ett enkelt verktøy for båtliv langs norskekysten. Brukerne kan registrere og dele nyttige steder i kartet, lagre egne favorittsteder og sette en destinasjon med ett eller flere viapunkter for å planlegge turen.</p>
@@ -34,95 +33,69 @@ section{scroll-margin-top:24px}
 <a href="#kontakt">Kontakt</a>
 </nav>
 </header>
-
 <section id="om">
 <h2>Om Sjøkart</h2>
 <p>Sjøkart Norge er utviklet som et praktisk hjelpemiddel for fritidsbåtliv. I kartet kan du se egen GPS-posisjon, fart og kurs, følge båten, se kompass, hente vær- og sjøforhold for valgte punkter og laste ned sjøkart for bruk når mobildekningen er dårlig. Du kan også sette en destinasjon i kartet og legge til eventuelle viapunkter for å beregne forventet reiselengde.</p>
 <p>Du kan slå på kartlag med brukerregistrerte steder som naturhavner, gjestehavner, marinaer, båtforeninger, brygger, drivstoff, septiktømming, verksted og motorservice, båtutstyrsbutikker, fiskemottak og fiskeutsalg, strand og badeplass, teltplass, grill- og bålplass, naturreservater, severdigheter og matsteder.</p>
-<p>Steder du merker med stjerne, lagres som private favoritter og vises i et eget kartlag. Favorittlaget er slått på automatisk når appen åpnes, mens de øvrige kartlagene kan slås på ved behov.</p>
+<p>Steder du merker med stjerne, lagres som private favoritter og vises i et eget kartlag.</p>
 <p>Sjøkart er brukerbasert: lokasjoner kan registreres, redigeres og korrigeres av brukerne, bilder kan sendes inn og knyttes til lokasjoner, og innhold kan rapporteres dersom noe er feil eller upassende. Bilder gjennomgås før de publiseres.</p>
 </section>
-
 <section id="support">
 <h2>Support</h2>
-
 <h3>Ved feil i kart eller stedsinformasjon</h3>
 <p>Stedsinformasjonen i Sjøkart er i stor grad basert på bidrag fra brukerne. Hvis du oppdager feil eller utdatert informasjon, kan du redigere eksisterende opplysninger eller slette brukerinnhold som ikke lenger er riktig, slik at kartet blir bedre for alle.</p>
 <p>Dersom samme feil stadig kommer tilbake, du opplever misbruk, eller det er noe du ikke får rettet selv, kan du bruke funksjonen <strong>Rapporter innhold</strong> i appen eller kontakte systemansvarlig.</p>
-
 <h3>Bilder og innhold</h3>
-<p>Brukerinnsendte bilder og innhold gjennomgås før publisering. Hvis du mener at et publisert bilde eller informasjon er feil, misvisende, upassende, eller ikke hører til lokasjonen, kan du fjerne det direkte fra stedsinformasjonen uten å slette selve lokasjonen.</p>
+<p>Brukerinnsendte bilder gjennomgås før publisering. Hvis du mener at et publisert bilde eller informasjon er feil, misvisende, upassende, eller ikke hører til lokasjonen, kan du fjerne det direkte fra stedsinformasjonen uten å slette selve lokasjonen.</p>
 <p>Hvis problemet vedvarer, upassende innhold blir lagt inn på nytt, eller gjentatte feil oppstår, bruk Rapporter innhold. Systemansvarlig kan da gjennomgå hendelsen og ved behov blokkere den tekniske bidragsyter-ID-en.</p>
-
 <h3>Sikkerhet på sjøen</h3>
 <p>Sjøkart Norge er et hjelpemiddel og erstatter ikke godt sjømannskap, offisielle navigasjonsmidler, lokale varsler eller egen vurdering av vær- og sjøforhold. Kontroller alltid sjømerker, dybde, vær, lokale regler og skilting.</p>
 </section>
-
 <section id="personvern">
 <h2>Personvernerklæring</h2>
 <p class="small">Sist oppdatert: 12. august 2026</p>
-
 <p>Denne erklæringen forklarer hvilke opplysninger Sjøkart Norge kan behandle, hvorfor de brukes og hvilke valg og rettigheter du har. Vanlige brukere trenger ikke å opprette en konto med navn, e-postadresse eller telefonnummer.</p>
-
 <h3>Posisjon, fart og kurs</h3>
 <p>Når du gir appen tilgang til posisjon, brukes iPhone-posisjonen for å vise båten i kartet og beregne blant annet fart og kurs. Posisjonen brukes også når du velger vær for et punkt eller registrerer et sted.</p>
 <p>Sjøkart lagrer ikke en sentral, kontinuerlig historikk over din personlige ferd. Når du registrerer et sted, lagres koordinatene til selve lokasjonen som en del av den delte stedsinformasjonen.</p>
-
 <h3>Vær-, sjø- og karttjenester</h3>
 <p>For å hente relevant vær, vind, bølger og andre sjøforhold kan geografiske koordinater sendes til eksterne datatjenester, blant annet MET Norway. Kartinnhold hentes blant annet fra Kartverket. Ved slike nettverksforespørsler kan leverandørene også motta vanlige tekniske opplysninger som IP-adresse og tidspunkt.</p>
-
 <h3>Anonym teknisk bruker-ID</h3>
 <p>For å beskytte den brukerbaserte delen av Sjøkart mot misbruk opprettes det i bakgrunnen en anonym teknisk bruker i Supabase Auth. Identiteten inneholder ikke navn, e-postadresse eller telefonnummer, men får en unik teknisk bruker-ID og autentiseringsinformasjon på enheten.</p>
 <p>ID-en brukes for å knytte bidrag og rapporter til en teknisk bidragsyter, slik at gjentatt misbruk kan håndteres og en bidragsyter ved behov kan blokkeres fra nye bidrag. Sletting av appdata eller reinstallasjon kan føre til at en ny anonym ID opprettes.</p>
 <p>Steder du markerer som favoritter, lagres lokalt på enheten og er private. Favorittmarkeringene deles ikke med andre brukere og brukes ikke til å identifisere deg.</p>
-
 <h3>Brukerregistrerte steder og tekstinnhold</h3>
 <p>Når du registrerer eller redigerer et sted, kan Sjøkart behandle og publisere opplysninger som stedsnavn, kategori, koordinater, adgang, fasiliteter og praktisk informasjon. Dette innholdet er ment å deles med andre brukere.</p>
 <p>Sjøkart er et brukerbasert verktøy. Andre brukere kan derfor rette, redigere eller slette stedsinformasjon. Det brukes også tekniske filtre og modereringsmekanismer for å redusere åpenbart upassende eller misbrukende innhold.</p>
-
 <h3>Bilder</h3>
 <p>Du kan frivillig sende inn bilder knyttet til en lokasjon. Bildene lagres i Sjøkarts backend og publiseres ikke før de er gjennomgått og godkjent. Publiserte bilder kan fjernes av brukere dersom de er feil, misvisende eller ikke hører til lokasjonen.</p>
 <p>Ikke send inn bilder du ikke har rett til å dele, bilder som unødvendig identifiserer andre personer, eller innhold som er ulovlig, krenkende eller upassende.</p>
-
 <h3>Rapporter og moderering</h3>
-<p>Brukere kan rapportere feil eller upassende innhold. En rapport kan inneholde valgt årsak, en valgfri kommentar, hvilken lokasjon rapporten gjelder og den tekniske bruker-ID-en til bidragsyteren som sist redigerte innholdet når denne er tilgjengelig.</p>
+<p>Brukere kan rapportere feil eller upassende innhold. En rapport kan inneholde valgt årsak, en valgfri kommentar og hvilken lokasjon rapporten gjelder.</p>
 <p>Rapporter gjennomgås i Sjøkarts eierpanel. Ved misbruk kan innhold rettes eller slettes, og den aktuelle tekniske bruker-ID-en kan blokkeres fra nye bidrag.</p>
-
 <h3>Supabase og lagring</h3>
 <p>Sjøkart bruker Supabase som teknisk backend for blant annet database, autentisering, bilder og modereringsdata. Opplysninger som sendes til backend behandles derfor gjennom Supabase sine tjenester. Tilgang styres gjennom autentisering og tilgangsregler i backend.</p>
-
 <h3>Lokal lagring og offline-kart</h3>
 <p>Appen lagrer enkelte opplysninger lokalt på enheten, blant annet appinnstillinger, lokale kopier av stedsinformasjon og kartfliser du selv velger å laste ned for offline-bruk. Slike lokale data kan normalt fjernes ved å slette appen.</p>
-
 <h3>Når du kontakter support</h3>
 <p>Når du sender en e-post til Sjøkart, brukes e-postadressen din og informasjonen i henvendelsen bare til å svare deg og følge opp saken du har tatt kontakt om.</p>
-
 <h3>Deling, annonser og sporing</h3>
 <p>Opplysninger deles med tekniske tjenesteleverandører når det er nødvendig for å levere appens funksjoner, drifte tjenesten, håndtere sikkerhet/moderering eller oppfylle rettslige forpliktelser.</p>
-
 <h3>Lagringstid</h3>
 <p>Brukerinnhold beholdes så lenge det er relevant for tjenesten eller til det slettes av brukere eller ved moderering. Innsendte bilder kan godkjennes, avvises eller slettes. Rapporter og opplysninger om blokkering kan beholdes så lenge det er nødvendig for å håndtere misbruk og beskytte tjenesten.</p>
-
-<h3>Dine rettigheter</h3>
-<p>Avhengig av situasjonen kan du ha rett til blant annet informasjon, innsyn, retting, sletting, begrensning, dataportabilitet og å protestere mot behandling av personopplysninger. Fordi vanlige Sjøkart-brukere er anonyme, kan det i enkelte tilfeller være nødvendig med tilstrekkelig informasjon for å kunne knytte en forespørsel til riktig teknisk bruker eller innhold.</p>
-
 <h3>Barn</h3>
 <p>Sjøkart er ikke spesielt rettet mot barn og ber ikke brukere om alder, navn eller kontaktinformasjon for vanlig bruk. Brukerinnhold skal ikke brukes til å dele unødvendige personopplysninger om barn eller andre personer.</p>
-
 <h3>Sikkerhet og begrensninger</h3>
 <p>Sjøkart benytter tilgangskontroll, moderering og tekniske sikkerhetsmekanismer for å begrense uautorisert tilgang og misbruk. Ingen digital tjeneste kan likevel garantere full sikkerhet.</p>
-
 <h3>Endringer i erklæringen</h3>
 <p>Personvernerklæringen kan oppdateres når funksjoner, tjenesteleverandører eller behandling av opplysninger endres. Gjeldende versjon publiseres alltid på denne siden.</p>
 </section>
-
 <section id="kontakt">
 <h2>Kontakt og behandlingsansvarlig</h2>
 <p>Sjøkart Norge drives av Øystein Frich.</p>
-<p>For spørsmål, feil, innholdsproblemer, support eller henvendelser om personvern og dine rettigheter:</p>
+<p>For spørsmål, feil, innholdsproblemer eller support</p>
 <p><a href="mailto:ofrich@hotmail.com">ofrich@hotmail.com</a></p>
 </section>
-
 <footer class="small">© 2026 Sjøkart Norge</footer>
 </body>
 </html>
